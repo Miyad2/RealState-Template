@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    vertical-align: middle;
+
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+}
+
+/* 000000000000000000000000000000000000000000000000000000000 */
+
+section.counter-up-part {
+    background: url(../img/BG-speaker.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter-up {
+    display: flex;
+    color: #fff;
+    background: darkgray;
+    width: 200px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-up .counter {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.counter-up span {
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}

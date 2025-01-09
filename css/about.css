@@ -1,0 +1,153 @@
+.offcan_section button.btn {
+    color: #000000;
+}
+.offcan_section button.btn:hover {
+    color: #000000;
+}
+a.nav-link:hover {
+    color: #000000;
+}a.nav-link:hover {
+    color: #000000;
+}
+a.nav-link {
+    color: #70707B;
+}
+
+/* About Hero */
+section.about-hero .row.mb-5 {
+    display: flex;
+    align-items: center;
+}
+
+/* Counter Up */
+
+
+.counter-up {
+    display: flex;
+}
+.counter_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-up span {
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.counter_icon svg {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 10px;
+    color: #a0a0ab;
+}
+.counter_content p {
+    font-style: italic;
+}
+
+/* Pioneering Section */
+.pion_l_text {
+    margin-top: 20px;
+}
+.pion_l_text p {
+    margin-bottom: 15px;
+}
+section.pioneering_section .row {
+    display: flex
+;
+    align-items: center;
+}
+/* .pion_right_img {
+    width: 430px;
+} */
+
+.col-lg-6.pion-img-align {
+    display: flex;
+    justify-content: flex-end;
+}
+.pion_l_text {
+    margin-top: 20px;
+}
+
+
+/* Client Section */
+.client_heading h4 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.row.c-logo-align {
+    display: flex;
+    align-items: center;
+}
+section.testimonials-section {
+    padding-top: 100px;
+}
+.row.b-bottom {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #F4F4F5;
+    display: flex;
+    align-items: center;
+}
+
+/* Testimonials Slider */
+ul.slick-dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+ul.slick-dots li {
+    width: 30px;
+    height: 5px;
+    background: #E4E4E7;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+ul.slick-dots button {
+    opacity: 0;
+}
+
+ul.slick-dots li.slick-active {
+    background: var(--btnClr);
+}
+.t_slider_icon svg {
+    font-size: 40px;
+}
+
+.t_slider_head {
+    padding-top: 30px;
+}
+
+.t_slider_text {
+    padding: 30px 0px 10px 0px;
+}
+.t_slider_img {
+    width: 430px;
+}
+.col-lg-5.t_slider_img_display {
+    display: flex;
+    justify-content: flex-end;
+}
+.t_slider_author p {
+    color: #18181B;
+    font-weight: 500;
+}
+.t_slider_icon {
+    margin-top: 15px;
+}
+section.testimonial_slider {
+    padding-bottom: 70px;
+}
+
+/* Accordion */
+.faqs-content p {
+    margin: 20px 0px;
+}
+
+

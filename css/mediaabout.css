@@ -1,0 +1,103 @@
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) { 
+    
+ }
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+ 
+
+
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    h2 {
+        font-size: 40px;
+    }
+    .counter_content p {
+        font-size: 15px;
+    }
+    section.testimonials-section {
+        padding-top: 60px;
+    }
+    .t_slider_text {
+        padding: 10px 0px 10px 0px;
+    }
+    .t_slider_icon {
+        margin-top: 0px;
+    }
+    .t_slider_head {
+        padding-top: 10px;
+    }
+    .t_slider_head h4 {
+        font-size: 32px;
+    }
+    .t_slider_icon svg {
+        font-size: 25px;
+    }
+    section.faqs-section {
+        padding-bottom: 80px;
+    }
+    
+
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    
+    
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .nav-logo {
+        margin-top: 8px;
+    }
+    .a_h_content {
+        margin-top: 20px;
+    }
+    .counter_area {
+        margin: 10px 0px;
+    }
+    .row.c-logo-align .col-lg-2.col-md-2.col-6 {
+        width: 150px;
+        margin: 10px auto;
+    }
+    .client_heading h4 {
+        font-size: 32px;
+    }
+    .t_s_text {
+        margin-top: 20px;
+    }
+    .t_slider_img {
+        width: 350px;
+    }
+    .col-lg-5.col-md-5.t_slider_img_display {
+        display: flex;
+        justify-content: center;
+    }
+    section.testimonial_slider {
+        padding-bottom: 70px;
+        overflow: hidden;
+    }
+    section.testimonial_slider ul.slick-dots {
+        margin-left: 8px;
+    }
+    .faqs-left-img.d-md-none.d-lg-block {
+        display: none;
+    }
+    section.testimonial_slider {
+        padding: 0px 15px;
+    }
+    .pion_right_img{
+        display: none;
+    }
+    .pion_right_img:nth-child(3){
+        display: block;
+    }
+    
+    
+}
