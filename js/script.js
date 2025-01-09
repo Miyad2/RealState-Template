@@ -87,33 +87,8 @@ $('.responsive').slick({
 		time: 3000,
 	});
 
-// Price Range
-// $( "#slider-range" ).slider({
-//   range: true,
-//   min: 0,
-//   max: 500,
-//   values: [ 75, 300 ],
-//   slide: function( event, ui ) {
-//     $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-//   }
-// });
-// $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-//   " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
 
-
-
-$( "#slider-range" ).slider({
-  range: true,
-  min: 0,
-  max: 500,
-  values: [ 75, 300 ],
-  slide: function( event, ui ) {
-    $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-  }
-});
-$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-  " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
 
 
@@ -122,6 +97,19 @@ $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
 
 
 })
+// Price Range Property.html
+$( function() {
+  $( "#slider-range" ).slider({
+    range: true,
+    min: 0,
+    max: 500,
+    values: [ 75, 300 ],
+    slide: function( event, ui ) {
+      $( "#amount" ).val( "Min"+"$" + ui.values[ 0 ] +"-Max"+ "$" + ui.values[ 1 ] );
+    }
+  });
+  $( "#amount" ).val( "Min"+"$" + $( "#slider-range" ).slider( "values", 0 ) +"-Max"+ "$" + $( "#slider-range" ).slider( "values", 1 ) );
+} );
 
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
