@@ -22,7 +22,7 @@
 <body>
 
     <section class="hero-bg">
-        <nav class="nav-section navbar-nav">
+        <nav class="nav-section navbar-nav d-sm-none d-md-block">
             <div class="container">
                 <div class="nav-items">
                     <div class="nav-logo">
@@ -49,7 +49,7 @@
 
         <!-- ==========  OffCanvas  =========== -->
 
-        <div class="offcan_section d-lg-none d-md-none">
+        <div class="offcan_section d-lg-none d-md-none ">
             <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight"
@@ -117,7 +117,15 @@
     <section class="search-bar-sec">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 md-search-filter">
+                    <div class="search-input d-sm-none d-lg-block">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input class="form-control" type="text" name="search" id="search"
+                            placeholder="Search Your Dream Property">
+                    </div>
+                    <div class="search-input-md d-lg-none">
                     <div class="search-input">
                         <div class="search-icon">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -125,6 +133,83 @@
                         <input class="form-control" type="text" name="search" id="search"
                             placeholder="Search Your Dream Property">
                     </div>
+                    <div class="filter-icon">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    </div>
+
+<!-- filter m device start  -->
+<div class="property-filter-part property-filter-part-md d-lg-none">
+    <div class="filter-btn-part">
+        <div class="filter-btn">
+            <button class="btn" type="button">Sell</button>
+        </div>
+        <div class="filter-btn">
+            <button class="btn bg-clr-white" type="button">Rent</button>
+        </div>
+    </div>
+    <div class="catrgory-part">
+        <div class="cat-heading">
+            <p>Category</p>
+        </div>
+        <div class="category-list-part">
+            <div class="category-list filter-list">
+                <input type="checkbox" name="checkbox" id="House-md">
+                <label for="House-md" class="category-name">House</label>
+            </div>
+            <div class="category-list filter-list">
+                <input type="checkbox" name="checkbox" id="Apartment-md">
+                <label for="Apartment-md" class="category-name">Apartment</label>
+            </div>
+            <div class="category-list filter-list">
+                <input type="checkbox" name="checkbox" id="villa-md">
+                <label for="villa-md" class="category-name">Villa</label>
+            </div>
+        </div>
+    </div>
+    <div class="catrgory-part location-part">
+        <div class="cat-heading">
+            <p>Location</p>
+        </div>
+        <div class="location-list-part">
+            <div class="location-list filter-list">
+                <input type="checkbox" name="checkbox" id="London-md">
+                <label for="London-md" class="location-name">London</label>
+            </div>
+            <div class="location-list filter-list">
+                <input type="checkbox" name="checkbox" id="Manchester-md">
+                <label for="Manchester-md" class="location-name">Manchester</label>
+            </div>
+            <div class="location-list filter-list">
+                <input type="checkbox" name="checkbox" id="Southampton-md">
+                <label for="Southampton-md" class="location-name">Southampton</label>
+            </div>
+            <div class="location-list filter-list">
+                <input type="checkbox" name="checkbox" id="Chelmsford-md">
+                <label for="Chelmsford-md" class="location-name">Chelmsford</label>
+            </div>
+            <div class="location-list filter-list">
+                <input type="checkbox" name="checkbox" id="Liverpool-md">
+                <label for="Liverpool-md" class="location-name">Liverpool</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="catrgory-part price-range">
+        <div class="price-range-part">
+            <div class="cat-heading">
+                        <p>Price range:</p>
+                </div>
+            <div id="slider-range-md"></div>
+            <p class="price-range-item">
+                <input class="form-control" type="text" id="amount-md" readonly="" >
+            </p>
+        </div>
+    </div>
+</div>
+<!-- filter m device end -->
+
+
                 </div>
             </div>
         </div>
@@ -134,14 +219,14 @@
     <section class="property-filter-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="property-filter-part">
+                <div class="col-lg-3 ">
+                    <div class="property-filter-part d-sm-none d-lg-block">
                         <div class="filter-btn-part">
                             <div class="filter-btn">
                                 <button class="btn" type="button">Sell</button>
                             </div>
                             <div class="filter-btn">
-                                <button class="btn" type="button">Rent</button>
+                                <button class="btn bg-clr-white" type="button">Rent</button>
                             </div>
                         </div>
                         <div class="catrgory-part">
@@ -149,62 +234,64 @@
                                 <p>Category</p>
                             </div>
                             <div class="category-list-part">
-                                <div class="category-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="category-name">House</lable>
+                                <div class="category-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="House">
+                                    <label for="House" class="category-name">House</label>
                                 </div>
-                                <div class="category-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="category-name">Apartment</lable>
+                                <div class="category-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="Apartment">
+                                    <label for="Apartment" class="category-name">Apartment</label>
                                 </div>
-                                <div class="category-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="category-name">Villa</lable>
+                                <div class="category-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="villa">
+                                    <label for="villa" class="category-name">Villa</label>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="location-part">
+                        <div class="catrgory-part location-part">
                             <div class="cat-heading">
                                 <p>Location</p>
                             </div>
                             <div class="location-list-part">
-                                <div class="location-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="location-name">London</lable>
+                                <div class="location-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="London">
+                                    <label for="London" class="location-name">London</label>
                                 </div>
-                                <div class="location-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="location-name">Manchester</lable>
+                                <div class="location-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="Manchester">
+                                    <label for="Manchester" class="location-name">Manchester</label>
                                 </div>
-                                <div class="location-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="location-name">Southampton</lable>
+                                <div class="location-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="Southampton">
+                                    <label for="Southampton" class="location-name">Southampton</label>
                                 </div>
-                                <div class="location-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="location-name">Chelmsford</lable>
+                                <div class="location-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="Chelmsford">
+                                    <label for="Chelmsford" class="location-name">Chelmsford</label>
                                 </div>
-                                <div class="location-list">
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <lable class="location-name">Liverpool</lable>
+                                <div class="location-list filter-list">
+                                    <input type="checkbox" name="checkbox" id="Liverpool">
+                                    <label for="Liverpool" class="location-name">Liverpool</label>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="price-range">
+                        <div class="catrgory-part price-range">
                             <div class="price-range-part">
+                                <div class="cat-heading">
+                                            <p>Price range:</p>
+                                    </div>
+                                <div id="slider-range"></div>
                                 <p class="price-range-item">
-                                    <label for="amount">Price range:</label>
                                     <input class="form-control" type="text" id="amount" readonly="" >
                                 </p>
-                                <div id="slider-range"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             
-            <div class="col-lg-9">
+            <div class="col-lg-9 ">
                 <div class="property-list">
                    <div class="property-content">
                     <div class="row">

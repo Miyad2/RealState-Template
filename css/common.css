@@ -23,6 +23,7 @@
     --paragraphClr:#70707B;
     --imgText:#FCFCFC;
     --footerText:#ffffffc6;
+    --borderClr:#e4e4e7;
     
 }
 
@@ -119,11 +120,16 @@ button.btn {
     margin: 18px 0px;
     font-size: 16px;
 }
-
+button.btn:focus{
+    box-shadow: none;
+}
 button.btn:hover {
     color: #000000;
     background-color: transparent;
     border: 1px solid #000000;
+}
+input{
+    box-shadow: none;
 }
 
 .border_bottom {

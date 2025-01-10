@@ -24,7 +24,96 @@ section.property-hero .row.mb-5 {
     align-items: center;
 }
 
+/* Search */
+section.search-bar-sec {
+    position: relative;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+.search-input input#search {
+    border-color: #e4e4e7;
+    padding-left: 40px;
+}
+.search-input .form-control:focus {
+    box-shadow: none;
+}
+.search-icon svg {
+    color: var(--paragraphClr);
+}
+
+
 /* Filter */
+.filter-btn-part {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+}
+
+.filter-btn button.btn {
+    padding: 8px 45px;
+    margin: 10px;
+    border: none;
+}
+.filter-btn button.btn:hover{
+    border: none;
+}
+.filter-btn button.btn:active{
+    background: var(--btnClr);
+    color: #fff;
+}
+button.btn.bg-clr-white {
+    background: #fff;
+    color: #000;
+    border: none;
+}
+button.btn.bg-clr-white:hover{
+    background: var(--btnClr);
+    color: #fff;
+}
+.cat-heading p {
+    color: var(--btnClr);
+    font-weight: 500;
+    font-size: 20px;
+    user-select: none;
+}
+.catrgory-part {
+    margin: 20px 0px;
+}
+
+.cat-heading {
+    margin-bottom: 10px;
+}
+.filter-list {
+    margin: 5px 0px;
+}
+.price-range-part .cat-heading {
+    margin-bottom: 20px;
+}
+
+p.price-range-item {
+    margin: 10px 0px;
+}
+input#amount {
+    font-weight: 500;
+}
+/* .filter-list input {
+    accent-color: #D71DF8;
+} */
+.filter-list label{
+    user-select: none;
+}
+
 p.price-range-item input {
     border: 0;
     color: #18181B;
@@ -34,6 +123,7 @@ p.price-range-item input {
     background-color: transparent;
     opacity: 1;
     padding-left: 0;
+    border: none;
 }
 .ui-slider-horizontal {
     height: 3px;
@@ -59,7 +149,50 @@ p.price-range-item input {
     background: #ffffff;
     font-weight: normal;
     color: #454545;
+    outline: none;
 }
+.price-range-item .form-control:focus {
+    box-shadow: none;
+}
+div#slider-range {
+    background: #c5c5c5;
+}
+/* Filter m device */
+.property-filter-part-md {
+    width: 350px;
+    position: absolute;
+    right: 35px;
+    top: 85px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #0000002e;
+    z-index: 99;
+    padding: 20px;
+    display: none;
+}
+.property-filter-part-md-block{
+    display: block;
+}
+.search-input-md {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input-md .search-input {
+    width: 100%;
+}
+.filter-icon {
+    width: 50px;
+    height: 38px;
+    border: 1px solid var(--borderClr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
 
 /* Property list */
 

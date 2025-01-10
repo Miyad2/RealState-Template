@@ -97,6 +97,19 @@ $('.responsive').slick({
 
 
 })
+// Price Range Property.html md
+$( function() {
+  $( "#slider-range-md" ).slider({
+    range: true,
+    min: 0,
+    max: 500,
+    values: [ 75, 300 ],
+    slide: function( event, ui ) {
+      $( "#amount-md" ).val( "Min"+"$" + ui.values[ 0 ] +"-Max"+ "$" + ui.values[ 1 ] );
+    }
+  });
+  $( "#amount-md" ).val( "Min"+"$" + $( "#slider-range-md" ).slider( "values", 0 ) +"-Max"+ "$" + $( "#slider-range-md" ).slider( "values", 1 ) );
+} );
 // Price Range Property.html
 $( function() {
   $( "#slider-range" ).slider({
@@ -136,4 +149,14 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// const filterBtnIcons = document.querySelectorAll('.fa-sliders');
+const filterBtnIcons = document.querySelector('.filter-icon');
+const filterPart = document.querySelector('.property-filter-part-md');
+
+console.log(filterBtnIcons)
+ filterBtnIcons.addEventListener ("click" , () => {
+filterPart.classList.toggle("property-filter-part-md-block")
+ } );
           

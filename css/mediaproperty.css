@@ -1,0 +1,78 @@
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) { 
+    
+ }
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    .property-filter-part {
+        padding-right: 10px;
+    }
+.filter-btn button.btn {
+        padding: 8px 30px;
+        margin: 8px 5px;
+    }
+
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    .property-filter-part-md .filter-btn button.btn {
+        padding: 8px 40px;
+        margin: 8px 5px;
+    }
+    .a_h_heading h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .property-content {
+        padding-top: 0px;
+    }
+
+    .contact-heading h2 {
+        font-size: 36px;
+    }
+
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .property-content {
+        padding-top: 0px;
+    }
+    
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .search-input.d-sm-none.d-lg-block {
+        display: none;
+    }
+    .property-filter-part-md {
+        position: absolute;
+        right: 12px;
+        top: 85px;
+        width: auto;
+    }
+    .property-filter-part.d-sm-none.d-lg-block {
+        display: none;
+    }
+    .property-content {
+        padding-top: 0px;
+    }
+
+
+    .contact-para {
+        margin-bottom: 30px;
+    }
+    .contact-btn button.btn {
+        width: 100%;
+    }
+
+    
+}
+
