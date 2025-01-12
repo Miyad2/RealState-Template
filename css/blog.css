@@ -1,0 +1,124 @@
+
+/* Search */
+section.search-bar-sec {
+    position: relative;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+.search-input input#search {
+    border-color: #e4e4e7;
+    padding-left: 40px;
+}
+.search-input .form-control:focus {
+    box-shadow: none;
+}
+.search-icon svg {
+    color: var(--paragraphClr);
+}
+
+/* blog Listing */
+.b-l-content-title {
+    margin-bottom: 30px;
+}
+.b-title h6 a {
+    color: var(--btnClr);
+    font-weight: 500;
+}
+.blog_meta {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.b-title {
+    padding: 10px 0px;
+}
+
+.blog-text {
+    margin-bottom: 30px;
+}
+.blog-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Contact */
+
+section.contact-section {
+    background: url(../images/blog/Contact\ Form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px 20px 30px;
+    border-radius: 20px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-heading h2{
+    color: #fff;
+    margin-bottom: 25px;
+}
+.contact-para p {
+    color: var(--footerText);
+}
+.subs-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+.contact-btn {
+    position: absolute;
+    right: 3px;
+}
+
+.subs-btn input {
+    padding:9px 15px;
+}
+.contact-content-part {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-para {
+    text-align: center;
+    padding: 0px 135px 20px;
+}
+.contact-right-form form input {
+    background: rgb(255, 255, 255);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: rgb(255, 255, 255);
+    border-color: #e2e2e2;
+    outline: 0;
+    box-shadow: none;
+}
+
+.subs-btn .contact-btn button.btn {
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+
+
+
