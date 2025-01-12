@@ -6,15 +6,11 @@
     color: #000000;
 }
 
-a.nav-link:hover {
+.nav-menu a.nav-link:hover {
     color: #000000;
 }
 
-a.nav-link:hover {
-    color: #000000;
-}
-
-a.nav-link {
+.nav-menu a.nav-link {
     color: #70707B;
 }
 

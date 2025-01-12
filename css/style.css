@@ -1,3 +1,11 @@
+
+.nav-menu a.nav-link {
+    color: #fcfcfc;
+}
+.nav-menu a.nav-link:hover {
+    color: #000000;
+}
+
 .nav-contact a button {
     color: #000;
     background: #fff;

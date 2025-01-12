@@ -4,12 +4,10 @@
 .offcan_section button.btn:hover {
     color: #000000;
 }
-a.nav-link:hover {
-    color: #000000;
-}a.nav-link:hover {
+.nav-menua.nav-link:hover {
     color: #000000;
 }
-a.nav-link {
+.nav-menua.nav-link {
     color: #70707B;
 }
 

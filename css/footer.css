@@ -2,6 +2,12 @@ footer {
     background: var(--btnClr);
     padding: 60px 0px 30px;
 }
+footer a.nav-link{
+    color: #fcfcfc;
+}
+footer a.nav-link:hover{
+    color: #000000;
+}
 .footer-area {
     padding-bottom: 30px;
 }
