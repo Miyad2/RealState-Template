@@ -1,0 +1,162 @@
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) { 
+    .blog-part-sm {
+        display: none;
+    }
+ }
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .Latest-b-l-content {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+ 
+    h1{
+        font-size: 52px;
+     }
+     h2{
+        font-size: 48px;
+     }
+     h3{
+        font-size: 40px;
+     }
+
+    .row.hero-c-row {
+        display: flex;
+        min-height: 80vh;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+    .hero-down {
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .about-l-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .about-c-heading {
+        width: 70%;
+    }
+    .about-box.ab-middle {
+        margin-top: 65px;
+    }
+    .p-l-text p {
+        font-size: 16px;
+    }
+    .p-l-title h3 {
+        font-size: 36px;
+    }
+    .faqs-content p {
+        margin-bottom: 40px;
+    }
+    .p-l-text {
+        padding: 20px 0px;
+    }
+    .contact-heading h2 {
+        font-size: 43px;
+    }
+
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+   
+    
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    h1{
+        font-size: 40px;
+     }
+     h2{
+        font-size: 40px;
+     }
+     h3{
+        font-size: 32px;
+     }
+    .hero-gellary-img {
+        display: none;
+    }
+    
+    .hero-content-left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-heading {
+        margin-bottom: 50px;
+    }
+    .about-c-heading {
+        width: 100%;
+    }
+    .about-l-content {
+        display: flex;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .about-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-box.ab-middle {
+        margin-top: 0px;
+    }
+    .faqs-left-img.d-md-none.d-lg-block {
+        display: none;
+    }
+    .blog-box-sm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .blog-img-sm {
+        width: 200px;
+        margin-right: 20px;
+    }
+    .blog-box-sm {
+        margin-bottom: 20px;
+    }
+    .blog-part {
+        display: none;
+    }
+    .blog-part-sm{
+        display: block;
+    }
+    ul.slick-dots {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 15px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .contact-para {
+        margin-bottom: 30px;
+    }
+    .contact-btn button.btn {
+        width: 100%;
+    }
+
+    
+}
