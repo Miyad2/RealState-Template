@@ -51,6 +51,9 @@ section.search-bar-sec {
     align-items: center;
     gap: 20px;
 }
+.Latest-b-r-content.padd-top-bottom {
+    padding: 20px 0px;
+}
 .Latest-b-l-content .b-title h6 {
     font-size: 40px;
 }
@@ -59,7 +62,6 @@ section.search-bar-sec {
 }
 .Latest-b-r-img {
     width: 26%;
-    margin: 8px 0px;
 }
 
 .l-b-r-img-width {
